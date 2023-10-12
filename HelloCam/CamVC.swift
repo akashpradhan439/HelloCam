@@ -73,7 +73,10 @@ class CamVC : UIViewController {
         
         shutterButton.tintColor = .white
         shutterButton.layer.cornerRadius = 30
-        shutterButton.
+        shutterButton.layer.borderColor = UIColor.white.cgColor
+        shutterButton.layer.borderWidth = 2
+//        shutterButton.layer.shadowOffset = 2
+//        shutterButton.layer.shadowRadius = 25
         
         NSLayoutConstraint.activate([
             bottomView.heightAnchor.constraint(equalToConstant: 100),
