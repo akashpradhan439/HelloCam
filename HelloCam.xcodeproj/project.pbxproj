@@ -7,60 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ADD8CF722AD6A81C007D39F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD8CF712AD6A81C007D39F4 /* AppDelegate.swift */; };
-		ADD8CF742AD6A81C007D39F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD8CF732AD6A81C007D39F4 /* SceneDelegate.swift */; };
-		ADD8CF762AD6A81C007D39F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD8CF752AD6A81C007D39F4 /* ViewController.swift */; };
 		ADD8CF792AD6A81D007D39F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD8CF772AD6A81D007D39F4 /* Main.storyboard */; };
 		ADD8CF7B2AD6A81F007D39F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD8CF7A2AD6A81F007D39F4 /* Assets.xcassets */; };
 		ADD8CF7E2AD6A81F007D39F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD8CF7C2AD6A81F007D39F4 /* LaunchScreen.storyboard */; };
+		ADD8CFA82AD6C47F007D39F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD8CFA22AD6C47F007D39F4 /* AppDelegate.swift */; };
+		ADD8CFA92AD6C47F007D39F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD8CFA32AD6C47F007D39F4 /* ViewController.swift */; };
+		ADD8CFAC2AD6C47F007D39F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD8CFA62AD6C47F007D39F4 /* SceneDelegate.swift */; };
+		ADD8CFB02AD7A9AF007D39F4 /* CamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD8CFAF2AD7A9AF007D39F4 /* CamVC.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		ADD8CF852AD6A81F007D39F4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ADD8CF662AD6A81C007D39F4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ADD8CF6D2AD6A81C007D39F4;
-			remoteInfo = HelloCam;
-		};
-		ADD8CF8F2AD6A820007D39F4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ADD8CF662AD6A81C007D39F4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ADD8CF6D2AD6A81C007D39F4;
-			remoteInfo = HelloCam;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		ADD8CF6E2AD6A81C007D39F4 /* HelloCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADD8CF712AD6A81C007D39F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADD8CF732AD6A81C007D39F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADD8CF752AD6A81C007D39F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADD8CF782AD6A81D007D39F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADD8CF7A2AD6A81F007D39F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADD8CF7D2AD6A81F007D39F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADD8CF7F2AD6A81F007D39F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADD8CF842AD6A81F007D39F4 /* HelloCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADD8CF8E2AD6A820007D39F4 /* HelloCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD8CFA22AD6C47F007D39F4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../Downloads/drive-download-20231011T071717Z-001/AppDelegate.swift"; sourceTree = "<group>"; };
+		ADD8CFA32AD6C47F007D39F4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../Downloads/drive-download-20231011T071717Z-001/ViewController.swift"; sourceTree = "<group>"; };
+		ADD8CFA62AD6C47F007D39F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "../../../Downloads/drive-download-20231011T071717Z-001/SceneDelegate.swift"; sourceTree = "<group>"; };
+		ADD8CFAF2AD7A9AF007D39F4 /* CamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ADD8CF6B2AD6A81C007D39F4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADD8CF812AD6A81F007D39F4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADD8CF8B2AD6A820007D39F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				ADD8CF6E2AD6A81C007D39F4 /* HelloCam.app */,
-				ADD8CF842AD6A81F007D39F4 /* HelloCamTests.xctest */,
-				ADD8CF8E2AD6A820007D39F4 /* HelloCamUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,9 +58,10 @@
 		ADD8CF702AD6A81C007D39F4 /* HelloCam */ = {
 			isa = PBXGroup;
 			children = (
-				ADD8CF712AD6A81C007D39F4 /* AppDelegate.swift */,
-				ADD8CF732AD6A81C007D39F4 /* SceneDelegate.swift */,
-				ADD8CF752AD6A81C007D39F4 /* ViewController.swift */,
+				ADD8CFA22AD6C47F007D39F4 /* AppDelegate.swift */,
+				ADD8CFA62AD6C47F007D39F4 /* SceneDelegate.swift */,
+				ADD8CFA32AD6C47F007D39F4 /* ViewController.swift */,
+				ADD8CFAF2AD7A9AF007D39F4 /* CamVC.swift */,
 				ADD8CF772AD6A81D007D39F4 /* Main.storyboard */,
 				ADD8CF7A2AD6A81F007D39F4 /* Assets.xcassets */,
 				ADD8CF7C2AD6A81F007D39F4 /* LaunchScreen.storyboard */,
@@ -122,42 +90,6 @@
 			productReference = ADD8CF6E2AD6A81C007D39F4 /* HelloCam.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ADD8CF832AD6A81F007D39F4 /* HelloCamTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ADD8CF9B2AD6A820007D39F4 /* Build configuration list for PBXNativeTarget "HelloCamTests" */;
-			buildPhases = (
-				ADD8CF802AD6A81F007D39F4 /* Sources */,
-				ADD8CF812AD6A81F007D39F4 /* Frameworks */,
-				ADD8CF822AD6A81F007D39F4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ADD8CF862AD6A81F007D39F4 /* PBXTargetDependency */,
-			);
-			name = HelloCamTests;
-			productName = HelloCamTests;
-			productReference = ADD8CF842AD6A81F007D39F4 /* HelloCamTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		ADD8CF8D2AD6A820007D39F4 /* HelloCamUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ADD8CF9E2AD6A820007D39F4 /* Build configuration list for PBXNativeTarget "HelloCamUITests" */;
-			buildPhases = (
-				ADD8CF8A2AD6A820007D39F4 /* Sources */,
-				ADD8CF8B2AD6A820007D39F4 /* Frameworks */,
-				ADD8CF8C2AD6A820007D39F4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ADD8CF902AD6A820007D39F4 /* PBXTargetDependency */,
-			);
-			name = HelloCamUITests;
-			productName = HelloCamUITests;
-			productReference = ADD8CF8E2AD6A820007D39F4 /* HelloCamUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,14 +102,7 @@
 				TargetAttributes = {
 					ADD8CF6D2AD6A81C007D39F4 = {
 						CreatedOnToolsVersion = 13.4.1;
-					};
-					ADD8CF832AD6A81F007D39F4 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = ADD8CF6D2AD6A81C007D39F4;
-					};
-					ADD8CF8D2AD6A820007D39F4 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = ADD8CF6D2AD6A81C007D39F4;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -195,8 +120,6 @@
 			projectRoot = "";
 			targets = (
 				ADD8CF6D2AD6A81C007D39F4 /* HelloCam */,
-				ADD8CF832AD6A81F007D39F4 /* HelloCamTests */,
-				ADD8CF8D2AD6A820007D39F4 /* HelloCamUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,20 +135,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADD8CF822AD6A81F007D39F4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADD8CF8C2AD6A820007D39F4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -233,40 +142,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADD8CF762AD6A81C007D39F4 /* ViewController.swift in Sources */,
-				ADD8CF722AD6A81C007D39F4 /* AppDelegate.swift in Sources */,
-				ADD8CF742AD6A81C007D39F4 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADD8CF802AD6A81F007D39F4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ADD8CF8A2AD6A820007D39F4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				ADD8CFB02AD7A9AF007D39F4 /* CamVC.swift in Sources */,
+				ADD8CFA92AD6C47F007D39F4 /* ViewController.swift in Sources */,
+				ADD8CFA82AD6C47F007D39F4 /* AppDelegate.swift in Sources */,
+				ADD8CFAC2AD6C47F007D39F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		ADD8CF862AD6A81F007D39F4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ADD8CF6D2AD6A81C007D39F4 /* HelloCam */;
-			targetProxy = ADD8CF852AD6A81F007D39F4 /* PBXContainerItemProxy */;
-		};
-		ADD8CF902AD6A820007D39F4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ADD8CF6D2AD6A81C007D39F4 /* HelloCam */;
-			targetProxy = ADD8CF8F2AD6A820007D39F4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ADD8CF772AD6A81D007D39F4 /* Main.storyboard */ = {
@@ -407,14 +290,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HT94Y2D6B3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HelloCam/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = hello;
+				INFOPLIST_KEY_NSCameraUsageDescription = helo;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = hello;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = hello;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -425,6 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cameramadebyme.app.HelloCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -435,14 +325,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = HT94Y2D6B3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HelloCam/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = hello;
+				INFOPLIST_KEY_NSCameraUsageDescription = helo;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = hello;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = hello;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,82 +351,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		ADD8CF9C2AD6A820007D39F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HT94Y2D6B3;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cameramadebyme.app.HelloCamTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloCam.app/HelloCam";
-			};
-			name = Debug;
-		};
-		ADD8CF9D2AD6A820007D39F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HT94Y2D6B3;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cameramadebyme.app.HelloCamTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloCam.app/HelloCam";
-			};
-			name = Release;
-		};
-		ADD8CF9F2AD6A820007D39F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HT94Y2D6B3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cameramadebyme.app.HelloCamUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HelloCam;
-			};
-			name = Debug;
-		};
-		ADD8CFA02AD6A820007D39F4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = HT94Y2D6B3;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cameramadebyme.app.HelloCamUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = HelloCam;
 			};
 			name = Release;
 		};
@@ -551,24 +371,6 @@
 			buildConfigurations = (
 				ADD8CF992AD6A820007D39F4 /* Debug */,
 				ADD8CF9A2AD6A820007D39F4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ADD8CF9B2AD6A820007D39F4 /* Build configuration list for PBXNativeTarget "HelloCamTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ADD8CF9C2AD6A820007D39F4 /* Debug */,
-				ADD8CF9D2AD6A820007D39F4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ADD8CF9E2AD6A820007D39F4 /* Build configuration list for PBXNativeTarget "HelloCamUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ADD8CF9F2AD6A820007D39F4 /* Debug */,
-				ADD8CFA02AD6A820007D39F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
